@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20221219</FitNesseVersion>
+  <rootPath>ScientificCalculator</rootPath>
+  <pageHistoryReference>
+    <name>ScientificCalculator.CalculatorSystems</name>
+    <date>2023-03-09T10:53:38+01:00</date>
+    <pageHistoryLink>ScientificCalculator.CalculatorSystems?pageHistory&amp;resultDate=20230309105338</pageHistoryLink>
+    <counts>
+      <right>16</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>363</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>ScientificCalculator.LogarithmicFunction</name>
+    <date>2023-03-09T10:53:39+01:00</date>
+    <pageHistoryLink>ScientificCalculator.LogarithmicFunction?pageHistory&amp;resultDate=20230309105339</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>77</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>ScientificCalculator.TrigonometricFunction</name>
+    <date>2023-03-09T10:53:39+01:00</date>
+    <pageHistoryLink>ScientificCalculator.TrigonometricFunction?pageHistory&amp;resultDate=20230309105339</pageHistoryLink>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>134</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk-17.0.5\bin\java" -cp C:\Users\kneumova\IdeaProjects\FitNesse_project\target\classes;C:\Users\kneumova\.m2\repository\org\fitnesse\fitnesse\20221219\fitnesse-20221219.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/C:/Users/kneumova/.m2/repository/org/fitnesse/fitnesse/20221219/fitnesse-20221219.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+</stdOut>
+    <stdErr>Slim  Map converter not loaded: could not find class org/htmlparser/NodeFilter
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>3</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1041</totalRunTimeInMillis>
+</suiteResults>
+

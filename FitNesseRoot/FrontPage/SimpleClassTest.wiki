@@ -1,0 +1,10 @@
+!define TEST_SYSTEM {slim}
+
+!path /target/classes
+
+!4 System Test For Simple Calculator Function
+!|My Calculator                                                           |                                                                 
+|value1       |operator      |value2                 |calculate?          |    
+|3.5          |+             |2.0                    |5.5                 |
+|2            |*             |3.5                    |7.0                 |
+

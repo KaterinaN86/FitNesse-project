@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20221219</FitNesseVersion>
+  <rootPath>FrontPage.SimpleClassTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>5</exceptions>
+    </counts>
+    <date>2023-02-17T14:31:31+01:00</date>
+    <runTimeInMillis>299</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /target/classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;h4 id="0"&gt;System Test For Simple Calculator Function&lt;/h4&gt;
+!|Simple Class Test                                                                 &lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Value1 &lt;span class="error"&gt;Could not invoke constructor for Value1[3]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Operator&lt;/td&gt;
+		&lt;td&gt;Value2&lt;/td&gt;
+		&lt;td&gt;calculate?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;3.5&lt;/td&gt;
+		&lt;td&gt;+&lt;/td&gt;
+		&lt;td&gt;2.0&lt;/td&gt;
+		&lt;td&gt;5.5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;2 &lt;span class="error"&gt;Could not find class set&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;* &lt;span class="error"&gt;The instance decisionTable_0.set. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;3.5 &lt;span class="error"&gt;Could not find class set&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;7.0 &lt;span class="error"&gt;Could not find class set&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;</content>
+    <relativePageName>SimpleClassTest</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='Value1', args=[Operator, Value2, calculate?]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_0</instructionId>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Could not invoke constructor for Value1[3]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='set 3.5', args=[2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_4</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Could not find class set</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_5', instruction='call', instanceName='decisionTable_0', methodName='set', args=[*]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_5</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.set. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='set 2.0', args=[3.5]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_6</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Could not find class set</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_7', instruction='call', instanceName='decisionTable_0', methodName='set 5.5', args=[7.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_7</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Could not find class set</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk-17.0.5\bin\java" -cp /target/classes;C:\Users\kneumova\.m2\repository\org\fitnesse\fitnesse\20221219\fitnesse-20221219.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/C:/Users/kneumova/.m2/repository/org/fitnesse/fitnesse/20221219/fitnesse-20221219.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>660</totalRunTimeInMillis>
+</testResults>
+

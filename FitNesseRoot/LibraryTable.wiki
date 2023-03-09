@@ -1,0 +1,16 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+
+|import|
+|libraryTable|
+
+|Library|
+|libraryTable.PrintScript|
+
+!4 Library Table
+|script|libraryTable.LibraryTableMyFixture                    |                                                                  
+|check                      |do business logic here                  |Success  |
+|note                      |The following invocation is triggered on the PrintScript library fixture  |
+|check                      |print                  |Hello Fitnesse.  |

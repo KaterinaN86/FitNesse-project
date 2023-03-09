@@ -1,0 +1,10 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+
+!4 Query Table
+!|Query: query table                    |05-Mar-2023                                                                    |
+|employee ID                      |company ID                   |first name  |last name  |hire date   |department       |
+|308251                           |AD1                          |Jane        |Doe        |17-Oct-2022 |Research         |
+|308252                           |AD1                          |John        |Smith      |19-Sep-2022 |Quality Analyst  |

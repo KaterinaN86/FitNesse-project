@@ -1,0 +1,17 @@
+---
+Test
+---
+!4 Script Table
+ 
+|script                         |script table                 |Apply                            |softtestclass             |
+|login with userID              |Apply                        |and password                     |softtestclass             |
+|login with userID and password;|Apply                        |softtestclass                    |  
+|check                          |login message received       |Apply Successfully logged in.    |
+|reject                         |login with userID            |Apply                            |and password|bad password |
+|check                          |login message received       |Apply Login attempt unsuccessful.|
+|check not                      |login message received       |Apply Successfully logged in.    |
+|ensure                         |login with userID            |Apply                            |and password|softtestclass|
+|note                           |this is just a comment.      |
+|show                           |number of login attempts made|                                 
+|$symbol=                       |login message received       |
+|check                          |login message received       |                    $symbol      |

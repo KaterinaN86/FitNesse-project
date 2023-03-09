@@ -1,0 +1,10 @@
+---
+Test
+---
+!4 Dynamic Decision Table
+!|ddt: dynamic decision table                                                                   |
+|#Description                           |1cent                   |2cent  |5cent  |10cent |20cent|50cent|1eur|2eur |total cents?          |Eur. total?           |
+|Additon of coin values                 |5                       |3      |6      |0      |0     |0     |0   |0    |41                    |0.410000              |
+|saving total value in a symbol         |37                      |1      |1      |0      |2     |0     |23  |0    |$totalCents=          |23.840000             |
+|using total cents value stored before  |$totalCents             |0      |0      |0      |0     |0     |10  |0    |3384                  |~=33.8                |
+

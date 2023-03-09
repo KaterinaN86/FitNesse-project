@@ -1,36 +1,36 @@
 package org.example;
 
-public class CalculatorTest {
+public class ScientificCalculatorTest {
 
     String firstArgument;
-    String secondArgument;
 
     public void setFirstArgument(String firstArgument) {
         this.firstArgument = firstArgument;
     }
 
-    public void setSecondArgument(String secondArgument) {
-        this.secondArgument = secondArgument;
-    }
-
-    public String additionTest(){
-        Calculator calculator=new Calculator();
-        Double result = calculator.addition(Double.parseDouble(firstArgument), Double.parseDouble(secondArgument));
+    public String sineTest(){
+        TrigonometricFunction calculator=new TrigonometricFunction();
+        Double result = calculator.sine(Double.parseDouble(firstArgument));
         return String.valueOf(result);
     }
-    public String subtractionTest(){
-        Calculator calculator=new Calculator();
-        Double result = calculator.subtraction(Double.parseDouble(firstArgument), Double.parseDouble(secondArgument));
+    public String cosineTest(){
+        TrigonometricFunction calculator=new TrigonometricFunction();
+        Double result = calculator.cosine(Double.parseDouble(firstArgument));
         return String.valueOf(result);
     }
-    public String multiplicationTest(){
-        Calculator calculator=new Calculator();
-        Double result = calculator.multiplication(Double.parseDouble(firstArgument), Double.parseDouble(secondArgument));
+    public String tangentTest(){
+        TrigonometricFunction calculator=new TrigonometricFunction();
+        Double result = calculator.tangent(Double.parseDouble(firstArgument));
         return String.valueOf(result);
     }
-    public String divisionTest(){
-        Calculator calculator=new Calculator();
-        Double result = calculator.division(Double.parseDouble(firstArgument), Double.parseDouble(secondArgument));
+    public String logarithm10Test(){
+        LogarithmicFunction calculator=new LogarithmicFunction();
+        Double result = calculator.logarithm10(Double.parseDouble(firstArgument));
+        return String.valueOf(result);
+    }
+    public String logarithmTest(){
+        LogarithmicFunction calculator=new LogarithmicFunction();
+        Double result = calculator.logarithmexp(Double.parseDouble(firstArgument));
         return String.valueOf(result);
     }
 }

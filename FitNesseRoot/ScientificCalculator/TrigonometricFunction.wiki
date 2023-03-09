@@ -1,0 +1,11 @@
+---
+Test
+---
+!4 System Test For Trigonometric Function
+
+!|Scientific Calculator Test                                                                   |
+|#Description |firstArgument |sineTest?              |cosineTest?         |tangentTest?        |
+|1st operand  |10            |0.17543139267904395    |1.3953649341158527  |0.1727924348551592  |
+|2nd operand  |2             |0.034913677698806274   |1.5358826490960904  |0.0348924178573234  |
+|3rd operand  |-10           |-0.17543139267904395   |1.7462277194739406  |-0.1727924348551592 |
+|4th operand  |-20           |-0.35657406485167054   |1.9273703916465672  |-0.3358423725664079 |

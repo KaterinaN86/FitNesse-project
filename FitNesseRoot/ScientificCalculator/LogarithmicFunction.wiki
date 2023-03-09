@@ -1,0 +1,9 @@
+---
+Test
+---
+!4 System test for Logaritmic Function.
+
+!|Scientific Calculator Test                                                |
+|#Description     |firstArgument|logarithm10Test?     |logarithmTest?       |
+|First Argument   |10           |1.0                   |2.302585092994046    |
+|Second Argument  |2            |0.3010299956639812   |0.6931471805599453   |

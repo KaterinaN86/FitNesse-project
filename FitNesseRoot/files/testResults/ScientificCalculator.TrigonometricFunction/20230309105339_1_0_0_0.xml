@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20221219</FitNesseVersion>
+  <rootPath>ScientificCalculator.TrigonometricFunction</rootPath>
+  <result>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2023-03-09T10:53:39+01:00</date>
+    <runTimeInMillis>134</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="SetUp"&gt;.SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;org.example&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h4 id="0"&gt;System Test For Trigonometric Function&lt;/h4&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="5"&gt;&lt;span class="pass"&gt;Scientific Calculator Test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;#Description&lt;/td&gt;
+		&lt;td&gt;firstArgument&lt;/td&gt;
+		&lt;td&gt;sineTest?&lt;/td&gt;
+		&lt;td&gt;cosineTest?&lt;/td&gt;
+		&lt;td&gt;tangentTest?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;1st operand&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0.17543139267904395&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;1.3953649341158527&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0.1727924348551592&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;2nd operand&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0.034913677698806274&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;1.5358826490960904&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0.0348924178573234&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;3rd operand&lt;/td&gt;
+		&lt;td&gt;-10&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;-0.17543139267904395&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;1.7462277194739406&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;-0.1727924348551592&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;4th operand&lt;/td&gt;
+		&lt;td&gt;-20&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;-0.35657406485167054&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;1.9273703916465672&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;-0.3358423725664079&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="TearDown"&gt;.TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Hello Let's tearDown&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>TrigonometricFunction</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='org.example'}</instruction>
+        <slimResult>pass(org.example)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>org.example</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='ScientificCalculatorTest', args=[]}</instruction>
+        <slimResult>pass(Scientific Calculator Test)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Scientific Calculator Test</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setFirstArgument', args=[10]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_6', instruction='call', instanceName='decisionTable_1', methodName='sineTest', args=[]}</instruction>
+        <slimResult>pass(0.17543139267904395)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_6</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>0.17543139267904395</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='cosineTest', args=[]}</instruction>
+        <slimResult>pass(1.3953649341158527)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>1.3953649341158527</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_8', instruction='call', instanceName='decisionTable_1', methodName='tangentTest', args=[]}</instruction>
+        <slimResult>pass(0.1727924348551592)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_8</instructionId>
+          <col>4</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>0.1727924348551592</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setFirstArgument', args=[2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='sineTest', args=[]}</instruction>
+        <slimResult>pass(0.034913677698806274)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>0.034913677698806274</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_13', instruction='call', instanceName='decisionTable_1', methodName='cosineTest', args=[]}</instruction>
+        <slimResult>pass(1.5358826490960904)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_13</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>1.5358826490960904</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='tangentTest', args=[]}</instruction>
+        <slimResult>pass(0.0348924178573234)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <col>4</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>0.0348924178573234</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_16', instruction='call', instanceName='decisionTable_1', methodName='setFirstArgument', args=[-10]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_16</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_18', instruction='call', instanceName='decisionTable_1', methodName='sineTest', args=[]}</instruction>
+        <slimResult>pass(-0.17543139267904395)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_18</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>-0.17543139267904395</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_19', instruction='call', instanceName='decisionTable_1', methodName='cosineTest', args=[]}</instruction>
+        <slimResult>pass(1.7462277194739406)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_19</instructionId>
+          <col>3</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>1.7462277194739406</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='tangentTest', args=[]}</instruction>
+        <slimResult>pass(-0.1727924348551592)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_20</instructionId>
+          <col>4</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>-0.1727924348551592</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_22', instruction='call', instanceName='decisionTable_1', methodName='setFirstArgument', args=[-20]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_1_22</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_24', instruction='call', instanceName='decisionTable_1', methodName='sineTest', args=[]}</instruction>
+        <slimResult>pass(-0.35657406485167054)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_24</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>-0.35657406485167054</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_25', instruction='call', instanceName='decisionTable_1', methodName='cosineTest', args=[]}</instruction>
+        <slimResult>pass(1.9273703916465672)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_25</instructionId>
+          <col>3</col>
+          <row>5</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>1.9273703916465672</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_26', instruction='call', instanceName='decisionTable_1', methodName='tangentTest', args=[]}</instruction>
+        <slimResult>pass(-0.3358423725664079)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_26</instructionId>
+          <col>4</col>
+          <row>5</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>-0.3358423725664079</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>134</totalRunTimeInMillis>
+</testResults>
+

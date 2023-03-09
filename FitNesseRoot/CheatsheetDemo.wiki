@@ -1,0 +1,49 @@
+!4 Example on cheat code.
+
+#FitNesse Cheat Sheet demonstration
+''FitNesse Cheat Sheet demonstration''
+'''FitNesse Cheat Sheet demonstration'''
+!style_fail(FitNesse Cheat Sheet demonstration)
+!style_pass(FitNesse Cheat Sheet demonstration)
+!style_ignore(FitNesse Cheat Sheet demonstration)
+!style_darkOrange(FitNesse Cheat Sheet demonstration)
+!style_an error(FitNesse Cheat Sheet demonstration)
+!-   FitNesse Cheat Sheet demonstration     -!
+--FitNesse Cheat Sheet demonstration--
+!<   <strong>FitNesse Cheat Sheet demonstration</strong>     >!
+
+!4 Line and block formatting
+
+----
+This is workflow break
+----
+over-text----under-text (thinnest line)
+
+over-text----under-text
+
+--------
+over-text--------------------------under-text (thicker as number of dashes increases)
+--------
+
+!note This is marked as note
+!1 Title
+!2 Header
+!3 Small header
+!c at the center
+
+{{{Formatted}}}
+
+!* [title]
+multi-line wiki text 
+N.B.: Multiple asterisks are allowed, e.g., !**** Expanded 
+*!
+
+!*> [title]
+multi-line wiki text 
+N.B.: Multiple asterisks are allowed, e.g., !****> Collapsed 
+*!
+
+!*< [title]
+multi-line wiki text 
+N.B.: Multiple asterisks are allowed, e.g., !****< Invisible 
+*!

@@ -1,0 +1,7 @@
+---
+Suite
+---
+|'''Test Name'''|'''Description'''                                                                                     |
+|[[Calculator Systems][ScientificCalculator.CalculatorSystems]]|Fitness Test For Calculator Systems                    |
+|[[Trigonometric Function][ScientificCalculator.TrigonometricFunction]]|Fitness Test For Trigonometric Function Systems|
+|[[Logarithmic Function][ScientificCalculator.LogarithmicFunction]]|Fitness Test For Logarithmic Function Systems      |
