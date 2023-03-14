@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20221219</FitNesseVersion>
+  <rootPath>ScriptTable</rootPath>
+  <result>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2023-03-14T16:59:01+01:00</date>
+    <runTimeInMillis>395</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="SetUp"&gt;.SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;org.example&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h4 id="0"&gt;Script Table&lt;/h4&gt;
+ &lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;script table&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Apply&lt;/td&gt;
+		&lt;td colspan="2"&gt;softtestclass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;login with userID&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Apply&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td colspan="2"&gt;softtestclass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;login with userID and password;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Apply&lt;/td&gt;
+		&lt;td colspan="3"&gt;softtestclass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;login message received&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Apply Successfully logged in.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;reject&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;login with userID&lt;/td&gt;
+		&lt;td&gt;Apply&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;bad password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;login message received&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Apply Login attempt unsuccessful.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;check not&lt;/td&gt;
+		&lt;td&gt;login message received&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Apply Successfully logged in.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;login with userID&lt;/td&gt;
+		&lt;td&gt;Apply&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;softtestclass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="4"&gt;this is just a comment.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;number of login attempts made&lt;/td&gt;
+	&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;$symbol&amp;lt;-[Apply Successfully logged in.]&lt;/td&gt;
+		&lt;td colspan="4"&gt;login message received&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;login message received&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;$symbol-&amp;gt;[Apply Successfully logged in.]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="TearDown"&gt;.TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Hello Let's tearDown&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>ScriptTable</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='org.example'}</instruction>
+        <slimResult>pass(org.example)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>org.example</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='ScriptTable', args=[Apply, softtestclass]}</instruction>
+        <slimResult>pass(script table)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>script table</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='loginWithUserIDAndPassword', args=[Apply, softtestclass]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='loginWithUserIDAndPassword', args=[Apply, softtestclass]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='loginMessageReceived', args=[]}</instruction>
+        <slimResult>pass(Apply Successfully logged in.)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>Apply Successfully logged in.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_4', instruction='call', instanceName='scriptTableActor', methodName='loginWithUserIDAndPassword', args=[Apply, bad password]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>RejectActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_5', instruction='call', instanceName='scriptTableActor', methodName='loginMessageReceived', args=[]}</instruction>
+        <slimResult>pass(Apply Login attempt unsuccessful.)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>Apply Login attempt unsuccessful.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_6', instruction='call', instanceName='scriptTableActor', methodName='loginMessageReceived', args=[]}</instruction>
+        <slimResult>pass(a=Apply Login attempt unsuccessful.;e=Apply Successfully logged in.)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>2</col>
+          <row>6</row>
+          <type>RejectedValueExpectation</type>
+          <actual>Apply Login attempt unsuccessful.</actual>
+          <expected>Apply Successfully logged in.</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_7', instruction='call', instanceName='scriptTableActor', methodName='loginWithUserIDAndPassword', args=[Apply, softtestclass]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>EnsureActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_8', instruction='call', instanceName='scriptTableActor', methodName='numberOfLoginAttemptsMade', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>0</col>
+          <row>9</row>
+          <type>ShowActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_9', instruction='callAndAssign', symbolName='symbol', instanceName='scriptTableActor', methodName='loginMessageReceived', args=[]}</instruction>
+        <slimResult>$symbol&lt;-[Apply Successfully logged in.]</slimResult>
+        <expectation>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>0</col>
+          <row>10</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$symbol&lt;-[Apply Successfully logged in.]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_1_10', instruction='call', instanceName='scriptTableActor', methodName='loginMessageReceived', args=[]}</instruction>
+        <slimResult>pass($symbol-&gt;[Apply Successfully logged in.])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>2</col>
+          <row>11</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>$symbol-&gt;[Apply Successfully logged in.]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk-17.0.5\bin\java" -cp C:\Users\kneumova\IdeaProjects\FitNesse_project\target\classes;C:\Users\kneumova\.m2\repository\org\fitnesse\fitnesse\20221219\fitnesse-20221219.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/C:/Users/kneumova/.m2/repository/org/fitnesse/fitnesse/20221219/fitnesse-20221219.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+</stdOut>
+    <stdErr>Slim  Map converter not loaded: could not find class org/htmlparser/NodeFilter
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>812</totalRunTimeInMillis>
+</testResults>
+

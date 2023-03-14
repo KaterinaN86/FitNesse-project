@@ -1,0 +1,28 @@
+---
+Test
+---
+!define TEST_SYSTEM {slim}
+
+!|Scenario     |attempt|times    |logins to   |accountName|with     |password|andIn|status|expecting|result|
+|start         |AttemptLoginAndValidateResults                                                             |
+|createAccount |@accountName     |withPassword|@password  |inStatus |@status                               |
+|attempt|@times|loginsTo         |@accountName|with       |@password                                       |
+|check         |lastLoginResultIs|@result           |
+
+
+|Attempt Logins To With And In Expecting                      |
+|times|accountName|password|status          |result           |
+|1    |brett      |secret  |valid           |success          |
+|1    |brett      |secret  |do not create   |account not found|
+|1    |brett      |secret  |revoked         |account revoked  |
+|1    |brett      |secret  |password expired|password expired |
+
+|Scenario|Attempt Single Login With Status|status  |Expecting|result                                       |
+|attempt |1                               |loginsTo|brett    |with  |secret|andIn|@status|expecting|@result|
+
+|Attempt Single Login With Status Expecting|
+|status          |result                   |
+|valid           |success                  |
+|do not create   |account not found        |
+|revoked         |account revoked          |
+|password expired|password expired         |

@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20221219</FitNesseVersion>
+  <rootPath>DynamicDecisionTable</rootPath>
+  <result>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2023-03-14T18:17:12+01:00</date>
+    <runTimeInMillis>220</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="SetUp"&gt;.SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;org.example&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h4 id="0"&gt;Dynamic Decision Table&lt;/h4&gt;
+&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="11"&gt;&lt;span class="pass"&gt;ddt: dynamic decision table&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;#Description&lt;/td&gt;
+		&lt;td&gt;1cent&lt;/td&gt;
+		&lt;td&gt;2cent&lt;/td&gt;
+		&lt;td&gt;5cent&lt;/td&gt;
+		&lt;td&gt;10cent&lt;/td&gt;
+		&lt;td&gt;20cent&lt;/td&gt;
+		&lt;td&gt;50cent&lt;/td&gt;
+		&lt;td&gt;1eur&lt;/td&gt;
+		&lt;td&gt;2eur&lt;/td&gt;
+		&lt;td&gt;total cents?&lt;/td&gt;
+		&lt;td&gt;Eur. total?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;Additon of coin values&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;41&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;0.410000&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;saving total value in a symbol&lt;/td&gt;
+		&lt;td&gt;37&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;23&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;$totalCents&amp;lt;-[2384]&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;23.840000&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;using total cents value stored before&lt;/td&gt;
+		&lt;td&gt;$totalCents-&gt;[2384]&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;3384&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;33.840000~=33.8&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="TearDown"&gt;.TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Hello Let's tearDown&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>DynamicDecisionTable</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='org.example'}</instruction>
+        <slimResult>pass(org.example)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>org.example</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_0', instruction='make', instanceName='dynamicDecisionTable_1', className='DynamicDecisionTable', args=[]}</instruction>
+        <slimResult>pass(ddt: dynamic decision table)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>dynamicDecisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>ddt: dynamic decision table</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_4', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[1cent, 5]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_4</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_5', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[2cent, 3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_5</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_6', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[5cent, 6]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_6</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_7', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[10cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_7</instructionId>
+          <col>4</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_8', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[20cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_8</instructionId>
+          <col>5</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_9', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[50cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_9</instructionId>
+          <col>6</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_10', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[1eur, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_10</instructionId>
+          <col>7</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_11', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[2eur, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_11</instructionId>
+          <col>8</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_13', instruction='call', instanceName='dynamicDecisionTable_1', methodName='get', args=[total cents]}</instruction>
+        <slimResult>pass(41)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>dynamicDecisionTable_1_13</instructionId>
+          <col>9</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>41</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_14', instruction='call', instanceName='dynamicDecisionTable_1', methodName='get', args=[Eur. total]}</instruction>
+        <slimResult>pass(0.410000)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>dynamicDecisionTable_1_14</instructionId>
+          <col>10</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>0.410000</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_16', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[1cent, 37]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_16</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_17', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[2cent, 1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_17</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_18', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[5cent, 1]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_18</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_19', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[10cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_19</instructionId>
+          <col>4</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_20', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[20cent, 2]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_20</instructionId>
+          <col>5</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_21', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[50cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_21</instructionId>
+          <col>6</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_22', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[1eur, 23]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_22</instructionId>
+          <col>7</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_23', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[2eur, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_23</instructionId>
+          <col>8</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_25', instruction='callAndAssign', symbolName='totalCents', instanceName='dynamicDecisionTable_1', methodName='get', args=[total cents]}</instruction>
+        <slimResult>$totalCents&lt;-[2384]</slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_25</instructionId>
+          <col>9</col>
+          <row>3</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$totalCents&lt;-[2384]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_26', instruction='call', instanceName='dynamicDecisionTable_1', methodName='get', args=[Eur. total]}</instruction>
+        <slimResult>pass(23.840000)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>dynamicDecisionTable_1_26</instructionId>
+          <col>10</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>23.840000</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_28', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[1cent, $totalCents]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_28</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_29', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[2cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_29</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_30', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[5cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_30</instructionId>
+          <col>3</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_31', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[10cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_31</instructionId>
+          <col>4</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_32', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[20cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_32</instructionId>
+          <col>5</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_33', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[50cent, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_33</instructionId>
+          <col>6</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_34', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[1eur, 10]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_34</instructionId>
+          <col>7</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_35', instruction='call', instanceName='dynamicDecisionTable_1', methodName='set', args=[2eur, 0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>dynamicDecisionTable_1_35</instructionId>
+          <col>8</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_37', instruction='call', instanceName='dynamicDecisionTable_1', methodName='get', args=[total cents]}</instruction>
+        <slimResult>pass(3384)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>dynamicDecisionTable_1_37</instructionId>
+          <col>9</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>3384</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='dynamicDecisionTable_1_38', instruction='call', instanceName='dynamicDecisionTable_1', methodName='get', args=[Eur. total]}</instruction>
+        <slimResult>pass(33.840000~=33.8)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>dynamicDecisionTable_1_38</instructionId>
+          <col>10</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>33.840000~=33.8</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk-17.0.5\bin\java" -cp C:\Users\kneumova\IdeaProjects\FitNesse_project\target\classes;C:\Users\kneumova\.m2\repository\org\fitnesse\fitnesse\20221219\fitnesse-20221219.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/C:/Users/kneumova/.m2/repository/org/fitnesse/fitnesse/20221219/fitnesse-20221219.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+</stdOut>
+    <stdErr>Slim  Map converter not loaded: could not find class org/htmlparser/NodeFilter
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>564</totalRunTimeInMillis>
+</testResults>
+
