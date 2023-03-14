@@ -1,5 +1,6 @@
 # Acceptance testing with FitNesse (Examples)
-Testing examples described in beginner FitNesse tutorial [https://www.softwaretestingclass.com/introduction-to-fitnesse-testing-tool-tutorial-for-beginners/](https://www.softwaretestingclass.com/introduction-to-fitnesse-testing-tool-tutorial-for-beginners/) as part of project created using InteliJ IDE and Java
+	---
+##Testing examples described in beginner FitNesse tutorial [https://www.softwaretestingclass.com/introduction-to-fitnesse-testing-tool-tutorial-for-beginners/](https://www.softwaretestingclass.com/introduction-to-fitnesse-testing-tool-tutorial-for-beginners/) as part of project created using InteliJ IDE and Java
 ==========================================================
 
 ## What is FitNesse
