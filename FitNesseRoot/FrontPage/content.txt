@@ -15,8 +15,10 @@ To add your first "page", click the [[Edit][.FrontPage?edit]] button and add a [
 
 
 | '''Global settings''' |
+|[[Class Path][root]] | Class Path Settings |
+|[[Set Up][SetUp]] | Set Up Of Global Variables |
 |[[Scientific Calculator][ScientificCalculator]]|Fitness Test For Scientific Calculator System|
-|[[Dynamic Decision Table][DynamicDecisionTable]]|Fitness Test For Conversion Of Coins To Euros System|
+|[[Dynamic Decision Table][DynamicDecisionTable]]|Fitness Test For Conversion Of Coins To Euros|
 |[[Query Table][QueryTable]]|Fitness Test For All Emplyee data tracking System|
 |[[Subset Query Table][SubsetQueryTable]]|Fitness Test For Emplyee data subset tracking System|
 |[[Ordered Query Table][OrderedQueryTable]]|Fitness Test For Ordered Emplyee data tracking System|
@@ -24,9 +26,7 @@ To add your first "page", click the [[Edit][.FrontPage?edit]] button and add a [
 |[[Library Table][LibraryTable]]|Fitness Test For Demonstrating Library Table Usage|
 |[[Cheatsheet Demo][CheatsheetDemo]]|Demonstrating charachter formatting cheat in FitNesse tool|
 |[[Scenario Table][ScenarioTable]]|Demonstrating Behavior Driven Development testing using Scenario Table|
-|[[Set Up][SetUp]] | Set Up Of Global Variables |
 |[[Tear Down][TearDown]] | Tear Down The Test Cases |
-|[[Class Path][root]] | Class Path Settings |
 
 
 !note Release ${FITNESSE_VERSION}

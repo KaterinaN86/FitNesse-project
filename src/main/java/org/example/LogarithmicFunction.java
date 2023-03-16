@@ -1,5 +1,5 @@
 package org.example;
-
+//Helper class for performing logarithmic functions
 public class LogarithmicFunction {
     static Double result;
     Double arg1;

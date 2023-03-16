@@ -1,5 +1,5 @@
 package org.example;
-
+//Helper class for performing trigonometric functions
 public class TrigonometricFunction {
     static Double result;
     Double arg1;

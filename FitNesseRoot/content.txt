@@ -4,4 +4,4 @@
 !define COLLAPSE_SETUP {true}
 !define COLLAPSE_TEARDOWN {true}
 
-!path C:\Users\kneumova\IdeaProjects\FitNesse_project\target\classes
+!path target\classes

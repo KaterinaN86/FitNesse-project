@@ -2,14 +2,12 @@
 Test
 ---
 !define TEST_SYSTEM {slim}
-
 !path target\classes
 
 |org.example.MyCalculator     |
 |value1 |operator |value2              |calculate?         |
 |3.5  |+            |2.0    |5.5  |
 |3.5  |*            |2.0    |7.0 |
-
 
 |import|
 |org.example|
@@ -19,8 +17,7 @@ Test
 |6.0  |/            |3.0    |2.0  |
 |5.0  |/            |2.0    |2.0  |
 
-
 !|MyCalculator|
 |words |listWords? |
-|Mouse,Cat  |Mouse:Cat:|
-|One,Two  |One:Two:|
+|Mouse,Cat  |Mouse Cat|
+|One,Two  |One Two|

@@ -1,24 +1,30 @@
 package org.example;
 
-import java.util.List;
-
+/**
+ * Class used as fixture for acceptance tests on page MyCalculator
+ */
 public class MyCalculator {
+
+    //Class variables.
     private double value1;
     private double value2;
     private String operator;
 
     private String words;
 
+    //Constructor.
     public MyCalculator() {
     }
 
-    public double getValue1()
-    {
+    public static void main(String[] args) {
+
+    }
+    //Getters and setters
+    public double getValue1() {
         return value1;
     }
 
-    public void setValue1(double value1)
-    {
+    public void setValue1(double value1) {
         this.value1 = value1;
     }
 
@@ -26,67 +32,50 @@ public class MyCalculator {
         this.words = words;
     }
 
-    public double getValue2()
-    {
+    public double getValue2() {
         return value2;
     }
 
-    public void setValue2(double value2)
-    {
+    public void setValue2(double value2) {
         this.value2 = value2;
     }
 
-    public String getOperator()
-    {
+    public String getOperator() {
         return operator;
     }
 
-    public void setOperator(String operator)
-    {
+    public void setOperator(String operator) {
         this.operator = operator;
     }
 
-    public double calculate()
-    {
+    /**
+     * Performs simple calculation based on the set operator, using set operands.
+     *
+     * @return double result value from performed operation.
+     */
+    public double calculate() {
         double calculate;
 
-        if(operator.equals("+"))
-        {
+        if (operator.equals("+")) {
             calculate = value1 + value2;
-        }
-        else if(operator.equals("-"))
-        {
+        } else if (operator.equals("-")) {
             calculate = value1 - value2;
-        }
-        else if(operator.equals("*"))
-        {
+        } else if (operator.equals("*")) {
             calculate = value1 * value2;
-        }
-        else
-        {
+        } else {
             calculate = value1 / value2;
         }
 
         return calculate;
     }
 
-    public String listWords(){
-       String result = "";
-       List<String>  wordsList = List.of(words.split(","));
-       for (String word: wordsList){
-           result+=word+ ":";
-       }
-        return  result;
-    }
-
-    public static void main(String[] args)
-    {
-        MyCalculator cp = new MyCalculator();
-        cp.setValue1(3.0);
-        cp.setOperator("+");
-        cp.setValue2(5.0);
-cp.setWords("Mouse,Cat");
-        System.out.println(cp.calculate());
-        System.out.println(cp.listWords());
+    /**
+     * Transforms class variable words by replacing comma separator with space.
+     *
+     * @return String modified words variable.
+     */
+    public String listWords() {
+        String result = words.replace(',', ' ');
+        return result;
     }
 }

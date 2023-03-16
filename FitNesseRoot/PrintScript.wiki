@@ -1,0 +1,7 @@
+---
+Test
+---
+!4 Decision table that uses fixture imported in library table
+|libraryTable.PrintScript                    |                                                                  
+|print?                      |
+|Hello Fitnesse.                     |
