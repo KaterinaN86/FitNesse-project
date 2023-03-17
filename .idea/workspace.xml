@@ -5,42 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fe5dadf-7135-4c33-a5b8-da350a010658" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/readmeImg/DefineTestPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/readmeImg/Run.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/readmeImg/TestPageExample.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/20230217113601.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217143815.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217143842.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217143913.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217144023.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217144048.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217144142.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217144501.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217144530.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217144546.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217144823.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217145754.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/20230217145842.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/MyCalculator.wiki" beforeDir="false" afterPath="$PROJECT_DIR$/FitNesseRoot/FrontPage/MyCalculator.wiki" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/content.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FitNesseRoot/FrontPage/content.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/QueryTable.wiki" beforeDir="false" afterPath="$PROJECT_DIR$/FitNesseRoot/QueryTable.wiki" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/RecentChanges.wiki" beforeDir="false" afterPath="$PROJECT_DIR$/FitNesseRoot/RecentChanges.wiki" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/RerunLastFailures_FrontPage-MyCalculator.wiki" beforeDir="false" afterPath="$PROJECT_DIR$/FitNesseRoot/RerunLastFailures_FrontPage-MyCalculator.wiki" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/RerunLastFailures_OrderedQueryTable.wiki" beforeDir="false" afterPath="$PROJECT_DIR$/FitNesseRoot/RerunLastFailures_OrderedQueryTable.wiki" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitNesseRoot/content.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FitNesseRoot/content.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Caculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DynamicDecisionTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DynamicDecisionTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LogarithmicFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LogarithmicFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/QueryTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/QueryTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScientificCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScientificCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScriptTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScriptTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TrigonometricFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TrigonometricFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/libraryTable/LibraryTableMyFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/libraryTable/LibraryTableMyFixture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/libraryTable/PrintScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/libraryTable/PrintScript.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
