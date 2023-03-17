@@ -18,17 +18,26 @@ It is also a tool for collaboration, as it is regularly used by QA experts, deve
 - FitNesse wiki frontend can also be used as a part of a project in InteliJ by adding corresponding maven dependencies and properties, create a profile with id value **fitnesse** and add **maven-antrun-plugin** in **pom.xml** file. To easily execute the configuration added with the plugin while using corresponding profile, maven run configuration is added to the project by using `-Pfitnesse test` command. Process is explained in detail here [https://www.youtube.com/watch?v=u-zbm5xVTvM](https://www.youtube.com/watch?v=u-zbm5xVTvM). After using the added run configuration (see image below), FitNesse Front Page can be accessed at [http://localhost:8000/FrontPage](http://localhost:8000/FrontPage).
 ---
 ![Run FitNesse using Maven run configuration](src/main/resources/readmeImg/Run.png)
----
+
 - **Note** : Java classes need to be compiled to be used as FitNesse test fixtures. Path to location of compiled java classes needs to be defined on page before running tests (example: `!path target\classes`) . A page can then be run as a test by choosing the **Test** option in the **Properties** section that can be opened by using the **Tools** menu on the wiki page.
 ---
 ![Defining a page as FitNesse page in properties section](src/main/resources/readmeImg/DefineTestPage.png)
+
+## FitNesse **Frontpage**
+- Initially, on the frontpage of FitNesse wiki there is a table that contains links to pages with documentation such as user guide, examples of tests, release notes and so on.
 ---
+![FitNesse frontpage initial state](src/main/resources/readmeImg/Welcome.png)
+
+- Pages can be added directly on the frontpage (like page **MyCalculator** as shown on image below). A table with all wiki pages, including the ones for setting class path and defining set up and tear down steps, cal also be created for easy access.
+---
+![FitNesse frontpage table with added pages](src/main/resources/readmeImg/PagesTable.png)
+
 ## **MyCalculator** demo page
 
 - Can be accessed through link on Frontpage. Used to demonstrate how to perform test using Java fixture. The image below show the page after execution of tests. Using the methods defined in Java fixture class, input data is provided and actual output is compared to expected. Import table is also used to include the necessary packages for the second decision table. Passed tests are marked with green color and in the second decision table there is an example on a failed test due to actual output **(2.0)** not matching expected **(2.5)**.
 ---
 ![Run FitNesse using Maven run configuration](src/main/resources/readmeImg/TestPageExample.png)
----
+
 ## **ScientificCalculator** page
 
 - **CalculatorSystems** page
