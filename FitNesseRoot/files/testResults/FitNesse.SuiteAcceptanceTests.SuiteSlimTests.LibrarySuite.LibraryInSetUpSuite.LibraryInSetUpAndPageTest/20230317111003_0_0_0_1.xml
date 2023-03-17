@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20221219</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LibraryInSetUpSuite.LibraryInSetUpAndPageTest</rootPath>
+  <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <date>2023-03-17T11:10:03+01:00</date>
+    <runTimeInMillis>709</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.ScenarioLibrary"&gt;.FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.ScenarioLibrary&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given installed library echo support&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;Library is installed via Library table above&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when a method not present on the fixture is called&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td colspan="2"&gt;echo&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then it should be called on the installed library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;echo support called&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given multiple libraries with the same methods&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;See for installed libraries the Library table above&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when such a method is called&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td colspan="2"&gt;echo&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then the last library created takes precedence over earlier created libraries&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;special echo support called&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;echo support called&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given a library installed in the setup page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="2"&gt;given installed library echo support&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then is should have been invoked on the library in the setup page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;echo in set up library called&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then the one one installed in this page takes precedence over the one in the setup page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;echo support called&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;echo in set up library called&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LibraryInSetUpSuite.SetUp"&gt;.FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LibraryInSetUpSuite.SetUp&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LibraryInSetUpSuite.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.SetUp"&gt;.FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.SetUp&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SetUp"&gt;.FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SetUp&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;SetUp &lt;span class="error"&gt;java.lang.NoClassDefFoundError: org/apache/commons/lang3/StringUtils&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Plugins=fitnesse.testsystems.slim.CustomTableAliasPlugin
+Plugins=fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+CustomComparators=glob:fitnesse.testsystems.slim.GlobComparator&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;page driver &lt;span class="error"&gt;Could not invoke constructor for PageDriver[0]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;echo fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.slim.test.library&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;library in set up&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;echo support&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle hidden"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;given multiple libraries with the same methods&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given multiple libraries with the same methods&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td&gt;See for installed libraries the Library table above&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;when such a method is called&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when such a method is called&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td colspan="2"&gt;echo&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="pass"&gt;then the one one installed in this page takes precedence over the one in the setup page&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="1"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then the one one installed in this page takes precedence over the one in the setup page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;echo support called&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;reject&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;echo in set up library called&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown"&gt;.FitNesse.SuiteAcceptanceTests.TearDown&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;hr/&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;tear down &lt;span class="error"&gt;java.lang.NullPointerException: Cannot read field "fitNesse" because "fitnesse.fixtures.FitnesseFixtureContext.context" is null&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>LibraryInSetUpAndPageTest</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_9_0', instruction='import', path='fitnesse.fixtures'}</instruction>
+        <slimResult>pass(fitnesse.fixtures)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_9_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.fixtures</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_10_0', instruction='make', instanceName='decisionTable_10', className='SetUp', args=[Plugins=fitnesse.testsystems.slim.CustomTableAliasPlugin
+Plugins=fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+CustomComparators=glob:fitnesse.testsystems.slim.GlobComparator]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_10_0</instructionId>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>java.lang.NoClassDefFoundError: org/apache/commons/lang3/StringUtils</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='library_11_0', instruction='make', instanceName='library1', className='PageDriver', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>library_11_0</instructionId>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Could not invoke constructor for PageDriver[0]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='library_11_1', instruction='make', instanceName='library2', className='EchoFixture', args=[]}</instruction>
+        <slimResult>pass(echo fixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>library_11_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>echo fixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='import_12_0', instruction='import', path='fitnesse.slim.test.library'}</instruction>
+        <slimResult>pass(fitnesse.slim.test.library)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_12_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.slim.test.library</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='library_13_0', instruction='make', instanceName='library1', className='LibraryInSetUp', args=[]}</instruction>
+        <slimResult>pass(library in set up)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>library_13_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>library in set up</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='library_14_0', instruction='make', instanceName='library1', className='EchoSupport', args=[]}</instruction>
+        <slimResult>pass(echo support)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>library_14_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>echo support</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_15_1/scriptTable_4_0', instruction='call', instanceName='scriptTableActor', methodName='echo', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>scriptTable_15_1/scriptTable_4_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_15_2/scriptTable_8_0', instruction='call', instanceName='scriptTableActor', methodName='echoSupportCalled', args=[]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_15_2/scriptTable_8_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>EnsureActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_15_2/scriptTable_8_1', instruction='call', instanceName='scriptTableActor', methodName='echoInSetUpLibraryCalled', args=[]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_15_2/scriptTable_8_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>RejectActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_16_0', instruction='make', instanceName='decisionTable_16', className='TearDown', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_16_0</instructionId>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>java.lang.NullPointerException: Cannot read field "fitNesse" because "fitnesse.fixtures.FitnesseFixtureContext.context" is null</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk-17.0.5\bin\java" -cp lib/*.jar;target\classes;C:\Users\kneumova\.m2\repository\org\fitnesse\fitnesse\20221219\fitnesse-20221219.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/C:/Users/kneumova/.m2/repository/org/fitnesse/fitnesse/20221219/fitnesse-20221219.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+</stdOut>
+    <stdErr>Slim  Map converter not loaded: could not find class org/htmlparser/NodeFilter
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1111</totalRunTimeInMillis>
+</testResults>
+
