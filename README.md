@@ -25,7 +25,7 @@ It is also a tool for collaboration, as it is regularly used by QA experts, deve
 ---
 ## **MyCalculator** demo page
 
-Can be accessed through link on Frontpage. Used to demonstrate how to perform test using Java fixture. The image below show the page after execution of tests. Using the methods defined in Java fixture class, input data is provided and actual output is compared to expected. Import table is also used to include the necessary packages for the second decision table. Passed tests are marked with green color and in the second decision table there is an example on a failed test due to actual output **(2.0)** not matching expected **(2.5)**.
+- Can be accessed through link on Frontpage. Used to demonstrate how to perform test using Java fixture. The image below show the page after execution of tests. Using the methods defined in Java fixture class, input data is provided and actual output is compared to expected. Import table is also used to include the necessary packages for the second decision table. Passed tests are marked with green color and in the second decision table there is an example on a failed test due to actual output **(2.0)** not matching expected **(2.5)**.
 ---
 ![Run FitNesse using Maven run configuration](src/main/resources/readmeImg/TestPageExample.png)
 ---
